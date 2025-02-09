@@ -1,0 +1,38 @@
+# Compiled binary
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+**/*.a
+**/*.lib
+
+# Rust build directory
+target/
+
+# Cargo lock file (if using a binary project, not a library)
+Cargo.lock
+
+# Rust dependency registry & build artifacts
+.cargo/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.iml
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Windows-specific files
+Thumbs.db
+Desktop.ini
+
+# Rust analyzer
+.rust-analyzer.json
+
+# Debugging files
+*.pdb
+
+# Git metadata files
+/.git/
